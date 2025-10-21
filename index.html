@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenRocket Portátil — Projeto de Foguetes</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+
+      color: #e8f0ff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    main {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px;
+      padding: 2rem 3rem;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+      max-width: 600px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.3rem;
+      color: #5ee1ff;
+    }
+    h2 {
+      font-size: 1.2rem;
+      color: #b9c7ff;
+    }
+    a.download {
+      display: inline-block;
+      margin: 1.5rem 0;
+      padding: 0.8rem 1.4rem;
+      background: linear-gradient(120deg, #5ee1ff, #7c4dff);
+      color: #001018;
+      font-weight: 700;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 6px 18px rgba(124,77,255,0.28);
+      transition: transform 0.1s ease;
+    }
+    a.download:hover { transform: translateY(-2px); }
+    pre {
+      background: #0a0f1a;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: left;
+      color: #cde5ff;
+      overflow-x: auto;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #92a0c2;
+    }
+  </style>
+</head>
+<body>
+    <h1>https://rbeninca.github.io/webti/rocket.html</h1>
+  <main>
+    <h1>🚀 OpenRocket Portátil</h1>
+    <h2>Projeto de Foguetes — Guia Rápido</h2>
+
+    <p>Baixe o script e rode no terminal para preparar e iniciar o OpenRocket automaticamente.</p>
+
+    <a href="./script.sh" class="download" download>⬇️ Baixar script.sh</a>
+
+    <h2>Como executar</h2>
+    <pre><code>chmod +x script.sh
+./script.sh</code></pre>
+
+    <p>Após a primeira execução, use o atalho criado:</p>
+    <pre><code>~/rodar.sh</code></pre>
+
+    <footer>© 2025 • Projeto de Foguetes • OpenRocket Portátil</footer>
+  </main>
+</body>
+</html>
